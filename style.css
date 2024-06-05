@@ -1,0 +1,29 @@
+html, body, *{
+    padding: 0;
+    margin: 0;
+}
+.container {
+    height: 100em;
+    background-color: #003049;
+    color: #eae2b7;
+    padding-top: 1rem;
+}
+.name-timer {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.board-container{
+    background-color: rgba(0, 255, 0, 0.1);
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.board-cell{
+    background-color: #003049;
+    display: inline-block;
+}
